@@ -11,3 +11,5 @@ The interface is simple, it just sets Serial to 31250 baud, 8 bits, no parity ju
 The signal is converted to 3.3v with a CD4504 and fed into the Arduino R4 stamp.
 
 The stamp drives a pair of 74HC595 shift registers and the first 12 outputs are the 6 lower and 6 upper notes.
+
+This is compatible with the JX-10, MKS-70 and of course the JX-8P but only the lower half LEDs will display on the 8P.
